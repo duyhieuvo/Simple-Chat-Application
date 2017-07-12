@@ -215,7 +215,7 @@ public class Server {
 				ClientThread client = clientList.get(j);
 				if (message.getMessage().startsWith(("<To " + client.username +">"))){
 					String str = hours + ":" + minutes + ":" + seconds + "| " + username + ": " + message.getMessage().replaceAll("<[^>]*>", "");
-					//Thêm vô
+					//ThÃªm vÃ´
 					ChatMessage newMessage;
 					if(message.getType()==ChatMessage.SENDREQUEST){
 						newMessage = new ChatMessage(ChatMessage.SENDREQUEST,"",message.sender(),message.receiver());
