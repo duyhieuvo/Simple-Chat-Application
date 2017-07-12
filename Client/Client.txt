@@ -1,1 +1,2 @@
 Compile all the files and run the 'ClientWindow'.
+Note: remember to compile the ChatMessage.java in the Other folder as well.
