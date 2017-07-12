@@ -1,0 +1,1 @@
+Messages are sent and received in the form of an object of class ChatMessage.
